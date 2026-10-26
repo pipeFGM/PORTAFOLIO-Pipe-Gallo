@@ -2,13 +2,12 @@ import { Suspense, useState } from 'react'
 import { Canvas } from '@react-three/fiber'
 import PalmScene from './PalmScene.jsx'
 
-// ✏️ Edita aquí tus datos
 const PROFILE = {
   name: ['Felipe Gallo', 'Mazuera'],
   title: 'Dirección creativa para publicidad, moda y marcas de lujo.',
   links: [
-    { label: 'Instagram', href: 'https://instagram.com/' },
-    { label: 'LinkedIn', href: 'https://www.linkedin.com/' },
+    { label: 'Instagram', href: 'https://www.instagram.com/flgaall/?hl=es' },
+    { label: 'LinkedIn', href: 'https://www.linkedin.com/in/felipe-gallo-mazuera-6ab088198/' },
   ],
 }
 
